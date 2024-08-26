@@ -16,6 +16,9 @@ spec:
     path: .
     repoURL: https://github.com/hvl71/redis-helm.git
     targetRevision: HEAD
+    helm:
+      values: |
+        replica.replicaCount: 4
   # Sync policy
   syncPolicy:
   # Namespace Auto-Creation ensures that namespace specified as the application destination exists in the destination cluster.
