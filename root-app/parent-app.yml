@@ -10,7 +10,7 @@ spec:
   project: my-project
   source:
     path: my-apps
-    repoURL: https://github.com/hseligson1/app-of-apps
+    repoURL: https://github.com/hvl71/app-of-apps-v2
     targetRevision: HEAD
   syncPolicy:
     syncOptions:
