@@ -13,8 +13,8 @@ spec:
   project: my-project
   # Source of the application manifests
   source:
-    path: my-apps
-    repoURL: https://github.com/hseligson1/app-of-apps.git
+  #  path: my-apps
+    repoURL: https://github.com/hvl71/redis-helm.git
     targetRevision: HEAD
   # Sync policy
   syncPolicy:
